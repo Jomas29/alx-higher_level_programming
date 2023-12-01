@@ -7,7 +7,9 @@ if argc == 0:
     print("0 arguments.")
 elif argc == 1:
     print("1 argument:")
-    print("1:", sys.argv[1])
+    words = sys.argv[count].split()
+    for i, word in enumerate(words, 1):
+        print("[]: {}".format(i, word))
 else:
     print("{} arguments:".format(argc))
     while count <= argc:

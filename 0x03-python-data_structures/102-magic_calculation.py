@@ -1,4 +1,5 @@
-#!/usr/bin/python3def magic_calculation(a, b):
+#!/usr/bin/python3
+def magic_calculation(a, b):
     add = __import__('magic_calculation_102', globals(), locals(), ['add'], 0).add
     sub = __import__('magic_calculation_102', globals(), locals(), ['sub'], 0).sub
 
